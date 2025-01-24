@@ -4,3 +4,24 @@
     box-sizing: 0;
 }
 
+/* Parametri dell'HEADER */
+header{
+    height: 120px;
+    border: 1px solid black; /*DEBUG*/
+    background-image: url("img/wall.png");
+}
+
+.estate{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 60px;
+    font-family: Edu Tas Beginner, sans-serif;
+}
+
+
+/* Parametri MAIN */
+ main{
+    margin-top: 10px; /*DEBUG*/
+    border: 1px solid black;
+    /* background-image: url("img/cork.png"); */
+ }
