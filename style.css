@@ -22,6 +22,34 @@ header{
 /* Parametri MAIN */
  main{
     margin-top: 10px; /*DEBUG*/
+    /* border: 1px solid black; */
+    background-image: url("img/cork.png");
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    font-family: Sometype Mono, monospace;
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
     border: 1px solid black;
-    /* background-image: url("img/cork.png"); */
- }
+}
+
+.card .date{
+    color: gray;
+}
+
+#pin{
+  position: absolute;
+ left: 200px;
+ top: -15px;
+}
+
+
